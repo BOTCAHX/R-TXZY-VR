@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://telegra.ph/file/ad40340695907adb17d40.png" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
+<img src="https://telegra.ph/file/74ee3213700db6534e59a.png" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 </p>
 <h1 align="center">AlyaaXzy X BOTCAHX</h1>
