@@ -28,14 +28,14 @@
 > pkg install bash
 > pkg install ffmpeg
 > pkg install libwebp
-> git clone https://github.com/AlyaaXd/R-Txyz-Botz
-> cd R-Txyz-Botz
+> git clone https://github.com/AlyaaXd/R-TXZY-VR
+> cd R-TXZY-VR
 > npm i
 > node run.js
 # Untuk Sdcard (File Sudah Di Download)
 > cd /sdcard
-> cp -r R-Txyz-Botz $HOME
-> cd R-Txyz-Botz
+> cp -r R-TXZY-VR $HOME
+> cd R-TXZY-VR
 > npm i
 > node run.js
 ```
