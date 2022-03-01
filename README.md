@@ -3,7 +3,7 @@
 <a href="wa.me/6282221792667"><img src="https://telegra.ph/file/0088e2bb81373fa6d9e9e.png" alt="donasi" border="0"></a>
 </div>
 
-##Lanjutan R-Txzy v2
+## Lanjutan R-Txzy v2
 
 <h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
