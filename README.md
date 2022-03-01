@@ -1,5 +1,3 @@
-<div align="center">
-<img src="https://telegra.ph/file/74ee3213700db6534e59a.png" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 ## Lanjutan R-Txzy v2
 
