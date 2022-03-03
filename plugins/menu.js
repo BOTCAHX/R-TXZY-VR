@@ -335,17 +335,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 }, { 
                                     "title": "|ℹ️| Info",
                                     "description": "Info Tentang Bot",
-                                    "rowId": ".? info"
-                                }, { 
-                                    "title": "Tanpa Kategori",
-                                    "description": "",
-                                    "rowId": ".? tanpakategori"
+                                    "rowId": ".? info"     
                                 }, { 
                                     "title": "|🧑‍💻| Owner",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
-                                "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
+                                "title": "⟣────────❲  All-Menu  ❳───────────⟢"
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
@@ -364,7 +360,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
-                                "title": "⟣──────────────❲ Penutup ❳───────────────⟢"
+                                "title": "⟣──────────❲ Penutup ❳────────────⟢"
                             }
                         ], "contextInfo": 
 						{ "stanzaId": m.key.id,
