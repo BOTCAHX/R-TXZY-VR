@@ -1,6 +1,6 @@
 
 <div align="center">
-<a href="wa.me/6282221792667"><img src="https://telegra.ph/file/0088e2bb81373fa6d9e9e.png" alt="donasi" border="0"></a>
+<a href="wa.me/6282221792667"><img src="https://telegra.ph/file/0088e2bb81373fa6d9e9e.png" alt="donasi" border="10"></a>
 </div>
 
 <h1 align="center">Lanjutan R-Txzy v2</h1>
