@@ -52,7 +52,7 @@ Simple WhatsApp Bot
 > pkg install bash
 > pkg install ffmpeg
 > pkg install libwebp
-> git clone https://github.com/AlyaaXd/R-TXZY-VR
+> git clone https://github.com/BOTCAHX/R-TXZY-VR
 > cd R-TXZY-VR
 > npm i
 > node run.js
@@ -64,16 +64,7 @@ Simple WhatsApp Bot
 > node run.js
 ```
 
-# Heroku Buildpack
-
-| BuildPack | LINK |
-|--------|--------|
-| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
-| **Node.js [salin]**     | heroku/nodejs|
-
-
-# THANKS TO 
+## THANKS TO 
  [`Baileys`](https://github.com/adiwajshing/Baileys)
 
  [`AlyaXzy`](https://wa.me/6289505165400)
