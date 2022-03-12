@@ -19,6 +19,21 @@
 </h4>
 </p>
 
+## Run On Heroku
+
+Simple WhatsApp Bot
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AlyaaXd/Haruno-Botz)
+
+
+
+## Ambil [seesion.data.json] 
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@tioclkp02/ScanQr-botwea-6#index.js?lite=1&outputonly=1#.replit)
+
+
+
+
 ## CARA INSTALL DI TERMUX
 ```bash
 > termux-setup-storage
@@ -39,20 +54,6 @@
 > npm i
 > node run.js
 ```
-
-# Run On Heroku
-
-Simple WhatsApp Bot
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AlyaaXd/Haruno-Botz)
-
-
-
-# Ambil [seesion.data.json] 
-
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@tioclkp02/ScanQr-botwea-6#index.js?lite=1&outputonly=1#.replit)
-
-
 
 # Heroku Buildpack
 
