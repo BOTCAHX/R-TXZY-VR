@@ -2,7 +2,7 @@
 // AlyaaXzy
 // BOTCAHX
 // Nurutomo & Tim
-**//
+//
 
 let fs = require('fs')
 global.owner = ['6282221xxxxxx', '6282221xxxxxx','6282221xxxxxx', '6282221xxxxxx', '6282221xxxxxx'] // Letakan nomor kamu disini [put your number here bro]
