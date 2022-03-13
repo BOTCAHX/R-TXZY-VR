@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 ye = `@${m.sender.split`@`[0]}`
-let info = `Hai Kak ${ye} Sc ini Bukan konsumsi masal ya.
+let info = `Hai Kak ${ye} ini script bot nya\n• https://github.com/BOTCAHX/R-TXZY-VR.
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', `*${global.packname}*`, 'status@broadcast') 
