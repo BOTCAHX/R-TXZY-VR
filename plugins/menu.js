@@ -6,14 +6,29 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-┌─〔 R-Txzy 〕
-├ Hai, *%name!*
-├ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-└────
+  before: `
+╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮
+┃╭┈─────────────⩵꙰ཱི࿐
+┃╰── %me ──➤ ↶↷*
+╰•͙✩̣̣̣̣ Hai, %name!
+⁙┃〲
+⁙┃〲 Tersisa *%limit Limit*
+⁙┃〲 Role *%role*
+⁙┃〲 Level *%level (%exp / %maxexp)* [%xp4levelup]
+⁙┃〲 %totalexp XP secara Total
+⁙┃〲 
+⁙┃〲 Tanggal: *%week %weton, %date*
+⁙┃〲 Tanggal Islam: *%dateIslamic*
+⁙┃〲 Waktu: *%time*
+⁙┃〲
+⁙┃〲 Uptime: *%uptime (%muptime)*
+⁙┃〲 Database: %rtotalreg dari %totalreg
+⁙┃〲
+⁙╰•°°° °°°°° °°°°°° °°°°°°°°
 %readmore`.trimStart(),
-  header: '┌─〔 %category 〕',
-  body: '├ %cmd %islimit %isPremium',
-  footer: '└────\n',
+  header: '╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮\n┃╭┈─────────────⩵꙰ཱི࿐\n┃╰── %category ──➤ ↶↷\n╰•͙✩̣̣̣̣',
+  body: '❏〲 %cmd %islimit %isPremium',
+  footer: ' ⁙╰•°°° °°°°° °°°°°° °°°°°°°°\n',
   after: `
 `,
 }
@@ -203,7 +218,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `© *R-Txzy*`.trim(),
+                        "description": `© *Fachri Botz*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
                         "buttonText": "*Click Here*",
                         "listType": "SINGLE_SELECT",
@@ -345,7 +360,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
-                                    "description": "pemilik R-Txzy",
+                                    "description": "pemilik Fachri",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "Donasi",
