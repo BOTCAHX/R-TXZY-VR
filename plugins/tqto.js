@@ -1,11 +1,12 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(thanks)).buffer(), `
-BIG THANKS TO
+*BIG THANKS TO*
 
 • Allah swt
 • My ortu
 • Nurutomo
 • Xteam
+• Fachri
 • AlyaaXzy 
 • BOTCAHX
 • Zeks
