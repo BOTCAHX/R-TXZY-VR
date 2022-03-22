@@ -1,9 +1,9 @@
 
 <div align="center">
-<a href="wa.me/6282221792667"><img src="https://telegra.ph/file/0088e2bb81373fa6d9e9e.png" alt="donasi" border="0"></a>
+<a href="wa.me/6285713041886"><img src="https://i.ibb.co/y6TRVt4/virgam.png" alt="donasi bang" border="0"></a>
 </div>
 
-<h1 align="center">Lanjutan R-Txzy v2</h1>
+<h1 align="center">Fachri Botz</h1>
 
 <h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
@@ -12,7 +12,7 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/BOTCAHX"><img title="Author" src="https://img.shields.io/badge/Author-BOTCAHX.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/Ipulpachri"><img title="Author" src="https://img.shields.io/badge/Author-Ipulpachri.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a
   <a href="https://wa.me/6289505165400">SC FREE API KOK GAN >//< </a>
