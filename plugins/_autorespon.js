@@ -40,9 +40,9 @@ handler.all = async function (m, { isBlocked }) {
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Ketuk Tombol Di Bawah Ya
 ║
-╠═ ©2021 Rpg wabot-aq
+╠═ ©2022 Rpg wabot-aq
 ╠═ Script original by Nurutomo
-╠═〘 R-TXZY〙 ═`.trim(), '© R-Txzy', 'Gopay', '#viadana', 'Pulsa', '#viapulsa', m)
+╠═〘 Fachri Botz 〙 ═`.trim(), '© Fachri Botz', 'Gopay', '#viadana', 'Pulsa', '#viapulsa', m)
 }
 
     // salam
@@ -72,7 +72,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`💠 Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Botz by Fachri`).catch(_ => _)
+        await this.setStatus(`💠 Mode bot aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | Fachri Botz by Fachri×፝֟͜×`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
