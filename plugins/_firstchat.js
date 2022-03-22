@@ -14,7 +14,7 @@ handler.all = async function (m) {
     let name = conn.getName(m.sender)
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
     await conn.send2ButtonLoc(m.chat, await(await fetch(thumbfoto)).buffer(), `
-*Hi ${name}, ${ucapan()}*
+*Hi Kak ${name}, ${ucapan()}*
 Saya adalah Fachri Botz salah satu bot WhatsApp.
 
 *Harap untuk tidak menelpon, meminta save, atau spam dalam penggunaan bot*
@@ -22,7 +22,7 @@ Silahkan baca rules dan mematuhi rules demi kenyamanan kita bersama.
 Terimakasih
 
 Jika ada kendala silahkan hubungi owner.
-`.trim(), watermark, 'Menu', '.?', 'Rules', '.rules')
+`.trim(), watermark, 'Menu', '.menu', 'Rules', '.rules')
     user.pc = new Date * 1
 }
 
