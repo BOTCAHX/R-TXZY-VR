@@ -205,7 +205,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *Fachri Botz*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
-                        "buttonText": "*Click Here*",
+                        "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -338,10 +338,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? info"     
                                 }, { 
                                     "title": "|🧑‍💻| Owner",
-                                    "description": "Menu Khusu Owner",
+                                    "description": "Menu Khusus Owner",
                                     "rowId": ".? owner"
                                 }],
-                                "title": "⟣────────❲  All-Menu  ❳───────────⟢"
+                                "title": "⟣────────❲  Menu Fachri Botz  ❳───────────⟢"
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
