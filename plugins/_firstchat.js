@@ -22,7 +22,7 @@ Silahkan baca rules dan mematuhi rules demi kenyamanan kita bersama.
 Terimakasih
 
 Jika ada kendala silahkan hubungi owner.
-`.trim(), watermark, 'Menu', '.menu', 'Rules', '.rules', 'Verify', '.daftar')
+`.trim(), watermark, 'Menu', '.menu', 'Rules', '.rules')
     user.pc = new Date * 1
 }
 
