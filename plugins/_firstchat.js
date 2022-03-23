@@ -15,32 +15,32 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
     await conn.send2ButtonLoc(m.chat, await(await fetch(thumbfoto)).buffer(), `
 *Hi Kak ${name}, ${ucapan()}*
-Saya adalah Fachri Botz salah satu bot WhatsApp.
+Saya adalah *Fachri Botz* salah satu bot WhatsApp.
 
 *Harap untuk tidak menelpon, meminta save, atau spam dalam penggunaan bot*
 Silahkan baca rules dan mematuhi rules demi kenyamanan kita bersama.
 Terimakasih
 
 Jika ada kendala silahkan hubungi owner.
-`.trim(), watermark, 'Menu', '.menu', 'Rules', '.rules')
+`.trim(), watermark, 'Menu', '.menu', 'Rules', '.rules', 'Verify', '.daftar')
     user.pc = new Date * 1
 }
 
 module.exports = handler
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    res = "Selamat dinihari"
+    res = "Selamat dinihari🌌"
     if (time >= 4) { 
-        res = "Selamat pagi"
+        res = "Selamat pagi🌅"
     }
     if (time > 10) {
-        res = "Selamat siang"
+        res = "Selamat siang🏙️"
     }
     if (time >= 15) {
-        res = "Selamat sore"
+        res = "Selamat sore🌇"
     }
     if (time >= 18) {
-        res = "Selamat malam"
+        res = "Selamat malam🌃"
     }
     return res
 }
