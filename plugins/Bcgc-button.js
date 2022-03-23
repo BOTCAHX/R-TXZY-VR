@@ -16,8 +16,8 @@ const anu = {
 			"groupJid": "6285240750713-1610340626@g.us",
 			"inviteCode": "mememteeeekkeke",
 			"groupName": "Grub Bot", 
-            "caption": "「 All Group Broadcast 」", 
-            'jpegThumbnail': fs.readFileSync('./src/mikey.jpg')
+            "caption": "「 *Fachri Botz Broadcast* 」", 
+            'jpegThumbnail': fs.readFileSync('./src/thumb.jpeg')
 		}
 	}
 }
