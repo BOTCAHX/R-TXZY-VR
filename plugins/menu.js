@@ -6,14 +6,14 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-┌─〔 Fachri Botz 〕
-├ Hi Kak, *%name!*
-├ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-└────
+┌─✧ 〔 Fachri Botz 〕
+├◌ Hi Kak, *%name!*
+├◌ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+└────✧
 %readmore`.trimStart(),
-  header: '┌─〔 %category 〕',
-  body: '├ %cmd %islimit %isPremium',
-  footer: '└────\n',
+  header: '┌─✧ 〔 %category 〕',
+  body: '├◌ %cmd %islimit %isPremium',
+  footer: '└────✧\n',
   after: `
 `,
 }
@@ -204,7 +204,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *Fachri Botz*`.trim(),
-                        "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
+                        "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner./n*Yt Owner*: youtube.com/c/Saeful Fachri",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -222,7 +222,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewa"
                                 }],
-                                "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
+                                "title": "⟣···─────────❲ Tentang Bot dan lainnya ❳──────────···⟢"
                             }, {
                                 "rows": [{
                                     "title": `[🧾| Semua Perintah`,
@@ -258,7 +258,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? xp"
                                 }, { 
                                     "title": "|🔞| NSFW",
-                                    "description": "Tobat Banh",
+                                    "description": "Tobat Banh:V",
                                     "rowId": ".? nsfw"
                                 }, { 
                                     "title": "|🖼️| Random Image",
@@ -341,7 +341,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Menu Khusus Owner",
                                     "rowId": ".? owner"
                                 }],
-                                "title": "⟣────────❲  Menu Fachri Botz  ❳───────────⟢"
+                                "title": "⟣···────────❲  Menu Fachri Botz  ❳───────────···⟢"
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
@@ -360,7 +360,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
-                                "title": "⟣──────────❲ Penutup ❳────────────⟢"
+                                "title": "⟣···──────────❲ Kata Penutup ❳────────────···⟢"
                             }
                         ], "contextInfo": 
 						{ "stanzaId": m.key.id,
