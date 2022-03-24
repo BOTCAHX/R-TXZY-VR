@@ -28,7 +28,7 @@
 > pkg install bash
 > pkg install ffmpeg
 > pkg install libwebp
-> git clone https://github.com/AlyaaXd/R-TXZY-VR
+> git clone https://github.com/Ipulpachri/R-TXZY-VR
 > cd R-TXZY-VR
 > npm i
 > node run.js
@@ -69,8 +69,6 @@ Simple WhatsApp Bot
  [`AlyaXzy`](https://wa.me/6289505165400)
 
  [`BOTCAHX`](https://wa.me/6282221792667)
-
-# Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
 
 ### BOTCAHX stat
