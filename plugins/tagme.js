@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
   conn.reply(m.chat, tag, m, { contextInfo: { mentionedJid }})
 }
 handler.help = ['tagme']
-handler.tags = ['group']
+handler.tags = ['grup']
 handler.command = /^tagme$/i
 
 handler.group = false
