@@ -168,7 +168,7 @@ Kata sandi: coolkidbres
 10. Email: YbaliwythFAV@gmail.com
 Kata sandi: superiorman_
 
-「 RAD BOT 」
+「 Fachri Botz 」
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['akungratis','freeaccount']
 handler.tags = ['tools']
