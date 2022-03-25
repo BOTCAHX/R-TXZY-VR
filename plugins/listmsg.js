@@ -22,15 +22,15 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let list = fltr.map(v => `├ ${v.nama} ${v.locked ? '(🔒)' : ''}`).join('\n')
     if (list === '') throw 'gk ada'
     if (db.data.chats[m.chat].getmsg) return await m.reply(`
-┌「 *daftar pesan* 」
+┌─✧ 「 *daftar pesan* 」
 ${list}
-└────
+└────···✧
 akses langsung dengan mengetik nama
 `.trim())
     else return await conn.sendButton(m.chat, `
-┌「 *daftar pesan* 」
+┌✧ 「 *daftar pesan* 」
 ${list}
-└────
+└────···✧
 akses dengan:
 *${usedPrefix}get${which}* <nama>
 atau langsung ketik namanya, tetapi kamu harus mengaktifkan getmsg dengan mengklik tombol di bawah
