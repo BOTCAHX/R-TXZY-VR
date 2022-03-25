@@ -312,9 +312,9 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     default:
       if (!/[01]/.test(command)) throw `
-┌「 Daftar opsi 」${isOwner ? '\n' + ow.map(v => '├ ' + v).join`\n` : ''}${m.isGroup ? '\n' + grup.map(v => '├ ' + v).join`\n` : ''}
-${ch.map(v => '├ ' + v).join`\n`}
-└────
+┌─✧「 Daftar opsi 」${isOwner ? '\n' + ow.map(v => '├◌ ' + v).join`\n` : ''}${m.isGroup ? '\n' + grup.map(v => '├◌ ' + v).join`\n` : ''}
+${ch.map(v => '├◌ ' + v).join`\n`}
+└────···✧
 contoh:
 ${usedPrefix}on welcome
 ${usedPrefix}off welcome
