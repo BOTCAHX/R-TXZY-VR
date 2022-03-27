@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix, DevMode }) => {
             let _legendary = `${pickRandom(['1', '0', '0', '0'])}`
             let sampah = `${Math.floor(Math.random() * 300)}`.trim()
             let legendary = (_legendary * 1)
-            let shy = JSON.parse(fs.readFileSync(`./src/Adventure/dungeon.json`))
+            let shy = JSON.parse(fs.readFileSync(`./src/dungeon.json`))
             let json = shy[Math.floor(Math.random() * shy.length)]
             let str = `
 Nyawa mu berkurang -${healt * 1} karena Kamu telah berpetualang sampai ${json.tempat} dan mendapatkan
