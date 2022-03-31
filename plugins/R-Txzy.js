@@ -1,10 +1,10 @@
-let handler  = async (m, { conn, usedPrefix: _p }) => {
-ye = `@${m.sender.split`@`[0]}`
-let info = `Hai Kak ${ye}, Sc nya Minta Ke Owner ya Kak>< *#owner*.
-`.trim()
+let fetch = require('node-fetch')
+let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
+┌─✧ 〔 Script Bot 〕
+├◌ 
+└────···✧
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', `*${global.packname}*`, 'status@broadcast') 
-}
+*Script nya private bang !!*`.trim(), watermark, 'Owner', '.owner', m)
 handler.help = ['github']
 handler.tags = ['info']
 handler.command = ['script', 'sc', 'scbot', 'github']
