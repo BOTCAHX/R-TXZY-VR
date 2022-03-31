@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (awa
 ├◌ 
 └────···✧
 
-*Script nya private bang !!*`.trim(), watermark, 'Owner', '.owner', m)
+*Script nya private bang !!*`.trim(), watermark, 'Github Owner', '.githubo', m)
 handler.help = ['github']
 handler.tags = ['info']
 handler.command = ['script', 'sc', 'scbot', 'github']
