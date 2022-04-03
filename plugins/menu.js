@@ -211,7 +211,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *Fachri Botz*`.trim(),
                         "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
-                        "buttonText": "*⋮☰ Klik Disini*",
+                        "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -455,7 +455,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, '⋮☰ Pemilik Bot', `${_p}owner`, '⋮☰ Donasi', `${_p}donasi`, m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, 'Pemilik Bot', `${_p}owner`, 'Donasi', `${_p}donasi`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
@@ -489,18 +489,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari🌌"
+  res = "Selamat dinihari kak🌌"
   if (time >= 4) {
-    res = "Selamat pagi🌅"
+    res = "Selamat pagi kak🌅"
   }
   if (time > 10) {
-    res = "Selamat siang🏙️"
+    res = "Selamat siang kak🏙️"
   }
   if (time >= 15) {
-    res = "Selamat sore🌇"
+    res = "Selamat sore kak🌇"
   }
   if (time >= 18) {
-    res = "Selamat malam🌃"
+    res = "Selamat malam kak🌃"
   }
   return res
 }
