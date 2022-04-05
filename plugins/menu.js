@@ -433,7 +433,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
                 .replace(/%islimit/g, menu.limit ? '(Limit)' : '')
-                .replace(/%isPremium/g, menu.premium ? '(Premium)' : '')
+                .replace(/%isPremium/g, menu.limit ? '(Limit)' : '')
                 .trim()
             }).join('\n')
           }),
