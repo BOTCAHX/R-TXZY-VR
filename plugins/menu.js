@@ -8,12 +8,12 @@ const defaultMenu = {
   before: `
 ┌─✧ 〔 Fachri Botz 〕
 ├◌ Hai Kak, *%name!*
-├◌ Tanggal: *%week %weton, %date*
-├◌ Tanggal Islam: *%dateIslamic*
-├◌ Waktu: *%time*
+├◌ Tanggal : *%week %weton, %date*
+├◌ Tanggal Islam : *%dateIslamic*
+├◌ Waktu : *%time*
 ├◌
-├◌ Runtime : *%uptime (%muptime)*
-├◌ Database: *%rtotalreg dari %totalreg*
+├◌ Runtime Bot : *%uptime (%muptime)*
+├◌ Database : *%rtotalreg dari %totalreg*
 ├◌ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 └────···✧
 %readmore`.trimStart(),
@@ -275,7 +275,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Menu Foto Random",
                                     "rowId": ".? image"
                                 }, { 
-                                    "title": "「 🎇 」 Stiker",
+                                    "title": "「 🎇 」 Sticker",
                                     "description": "Menu Buat Stiker",
                                     "rowId": ".? stiker"
                                 }, { 
