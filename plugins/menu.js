@@ -206,7 +206,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       }
     })
     if (teks == '404') {
-			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
+                        let mantap = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${await conn.getName(m.sender)}`, vcard: `BEGIN: VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${m.sender.split('@')[0]}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *Fachri Botz*`.trim(),
@@ -216,19 +216,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "sections": [
                             {
                                 "rows": [{
-                                    "title": "Status Bot",
+                                    "title": "📉 Status Bot",
                                     "description": "Status dan informasi Bot.",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "Rules",
+                                    "title": "⚠️ Rules",
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
                                }, {
-                                    "title": "Runtime Bot",
+                                    "title": "⏳ Runtime Bot",
                                     "description": "Bot Aktif Selama...",
                                     "rowId": ".runtime"
                                 }, {
-                                    "title": "Sewa bot - Premium",
+                                    "title": "✨ Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewa"
                                 }],
