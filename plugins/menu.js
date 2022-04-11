@@ -210,7 +210,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *Fachri Botz*`.trim(),
-                        "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
+                        "footerText": "Runtime: ${uptime}",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
