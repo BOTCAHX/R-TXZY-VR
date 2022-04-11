@@ -222,10 +222,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "title": "⚠️ Rules",
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
-                               }, {
+                                }, {
                                     "title": "⏳ Runtime Bot",
                                     "description": "Bot Aktif Selama...",
                                     "rowId": ".runtime"
+                                }, {
+                                    "title": "👑 Source Code",
+                                    "description": "Script Bot Ini",
+                                    "rowId": ".sc"
                                 }, {
                                     "title": "✨ Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
@@ -361,12 +365,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title": "📍Kata penutup",
-                                    "description": "Terimakasih untuk user yang telah menggunakan bot ini jangan lupa donasi !! #donasi, jika ada kesalahan /bug, atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon (user bisa terkena banned/block)",
+                                    "title": "📍 Kata penutup",
+                                    "description": "Terimakasih untuk user yang telah menggunakan bot ini jangan lupa donasi !! #donasi, jika ada kesalahan /bug, atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon (user bisa terkena banned/block !!)",
                                     "rowId": ".creator"
                                 }, {
                                     "title": "Big thanks To |🎖️|",
-                                    "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
+                                    "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot ini",
                                     "rowId": ".tqto"
                                 }],
                                 "title": "⟣···──────────❲ Kata Penutup ❳────────────···⟢"
