@@ -11,7 +11,6 @@ const defaultMenu = {
 ├◌ Tanggal : *%week %weton, %date*
 ├◌ Tanggal Islam : *%dateIslamic*
 ├◌ Waktu : *%time*
-├◌
 ├◌ Runtime Bot : *%uptime (%muptime)*
 ├◌ Database : *%rtotalreg dari %totalreg*
 ├◌ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
@@ -354,19 +353,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "⟣···────────❲  Menu Fachri Botz  ❳─────────···⟢"
                             }, {
                                 "rows": [{
-                                    "title": "Owner bot",
+                                    "title": "👥 Owner bot",
                                     "description": "pemilik Fachri",
                                     "rowId": ".owner"
                                 }, {
-                                    "title": "Donasi",
+                                    "title": "💰 Donasi",
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title": "Kata penutup",
-                                    "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
+                                    "title": "📍Kata penutup",
+                                    "description": "Terimakasih untuk user yang telah menggunakan bot ini jangan lupa donasi !! #donasi, jika ada kesalahan /bug, atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon (user bisa terkena banned/block)",
                                     "rowId": ".creator"
                                 }, {
-                                    "title": "Thanks To |🎖️|",
+                                    "title": "Big thanks To |🎖️|",
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
