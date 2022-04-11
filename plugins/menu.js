@@ -209,7 +209,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *Fachri Botz*`.trim(),
-                        "footerText": "Jangan Lupa Donasi bang !! #donasi",
+                        "footerText": "ᴹᴿ᭄ Fachri Botz ×፝֟͜× by Fachri",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -267,7 +267,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? xp"
                                 }, { 
                                     "title": "「 🔞 」 NSFW",
-                                    "description": " Jangan Di Pencet, Tobat Banh:V",
+                                    "description": " Jangan Di Pencet gblk, Tobat Banh:V",
                                     "rowId": ".? nsfw"
                                 }, { 
                                     "title": "「 🖼️ 」 Random Image",
@@ -299,7 +299,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? premium"
                                 }, { 
                                     "title": "「 🖥️ 」 Internet",
-                                    "description": "Cari Sesuatu Di Bot",
+                                    "description": "Cari Sesuatu Di Fachri Botz",
                                     "rowId": ".? internet"
                                 }, { 
                                     "title": "「 🥷 」 Anonymous",
@@ -311,7 +311,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? nulis"
                                 }, { 
                                     "title": "「 📺 」 Downloader",
-                                    "description": "Download Sesuatu Di Bot",
+                                    "description": "Download Sesuatu Di Fachri Botz",
                                     "rowId": ".? downloader"
                                 }, { 
                                     "title": "「 🔧 」 Tools",
@@ -323,7 +323,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? fun"
                                 }, { 
                                     "title": "「 📂 」 Database",
-                                    "description": "Simpan Sesuatu Di Bot",
+                                    "description": "Simpan Sesuatu Di Fachri Botz",
                                     "rowId": ".? database"
                                 }, { 
                                     "title": "「 📝 」 Vote & Absen",
@@ -343,7 +343,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? anime"
                                 }, { 
                                     "title": "「 ℹ️ 」 Info",
-                                    "description": "Info Tentang Bot",
+                                    "description": "Info Tentang Fachri Botz",
                                     "rowId": ".? info"     
                                 }, { 
                                     "title": "「 🧑‍💻 」 Owner",
@@ -354,7 +354,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             }, {
                                 "rows": [{
                                     "title": "👥 Owner bot",
-                                    "description": "pemilik Fachri",
+                                    "description": "pemilik Fachri Botz",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "💰 Donasi",
