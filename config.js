@@ -41,13 +41,13 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Fachri Botz'
-global.author = '📌fachri'
+global.packname = '📌Fachri Botz by Fachri'
+global.author = 'ᴹᴿ᭄ Fachri botz ×፝֟͜×'
 
 global.wait = '「 ⏱️ 」 Tunggu Sebentar...'
 global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© Fachri' //change the watermark 
+global.watermark = '© ᴹᴿ᭄ Fachri Botz ×፝֟͜×' //change the watermark 
 global.image = 'https://i.ibb.co/YWR6SBf/20220405-085641.jpg' //change the image
 global.thumbfoto = 'https://i.ibb.co/Q9ngK59/20220405-085559.jpg'
 
