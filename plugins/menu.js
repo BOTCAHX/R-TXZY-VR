@@ -209,7 +209,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *Fachri Botz*`.trim(),
-                        "footerText": "ᴹᴿ᭄ Fachri Botz ×፝֟͜× by Fachri",
+                        "footerText": "Bot Aktif Selama: ${uptime}",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
