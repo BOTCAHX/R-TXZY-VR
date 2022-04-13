@@ -4,7 +4,7 @@
 
 
 let fs = require('fs')
-global.owner = ['6285713041886', '6285713041886, '6285713041886', '6285713041886', '6285713041886'] // Letakan nomor kamu disini [put your number here bro]
+global.owner = ['6285713041886', '6285713041886','6285713041886', '6285713041886', '6285713041886'] // Letakan nomor kamu disini [put your number here bro]
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -41,21 +41,21 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = '📌Fachri Botz by Fachri'
-global.author = 'ᴹᴿ᭄ Fachri botz ×፝֟͜×'
+global.packname = 'Fachri'
+global.author = 'Fachri Botz'
 
-global.wait = '「 ⏱️ 」 Tunggu Sebentar...'
+global.wait = '「 ⏱️ 」Harap tunggu...'
 global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© ᴹᴿ᭄ Fachri Botz ×፝֟͜×' //change the watermark 
-global.image = 'https://i.ibb.co/YWR6SBf/20220405-085641.jpg' //change the image
-global.thumbfoto = 'https://i.ibb.co/Q9ngK59/20220405-085559.jpg'
+global.watermark = '© Fachri' //change the watermark 
+global.image = 'https://i.ibb.co/y6TRVt4/virgam.png' //change the image
+global.thumbfoto = 'https://i.ibb.co/y6TRVt4/virgam.png'
 
 // image
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
 global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
 global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
-global.thanks = 'https://i.ibb.co/0M6cRM9/20220325-072742.png'
+global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
 
 global.multiplier = 9999999 // Semakin tinggi, semakin sulit naik level
 
