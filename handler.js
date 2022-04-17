@@ -485,8 +485,8 @@ global.dfail = (type, m, conn) => {
     private: 'This command only can used in Private Chat.\nPerintah ini hanya dapat digunakan di Chat Pribadi.',
     admin: 'This command only can used by *Group Admin.*\nPerintah ini hanya dapat digunakan oleh *Admin Group.*',
     botAdmin: 'Make the bot number as a group admin to use this command.\nJadikan bot sebagai admin untuk menggunakan perintah ini.',
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Fachri.15*',
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
-    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Fachri.15*',
   }[type]
   if (unreg) return conn.sendButton(m.chat, `Haii Kak, ${name} 👋 Sebelum menggunakan bot ini Harap *Register* Terlebih dahulu`, wm, 'Register', `#daftar ${name}.15`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `© Created By Fachri_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/RadBotZ.jpg')}}})
 }
