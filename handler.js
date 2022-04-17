@@ -413,7 +413,7 @@ module.exports = {
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: 'R-Txzy',
+                  body: 'Created by Fachri',
                   thumbnail: poi
                 }
               }}) 
@@ -489,6 +489,10 @@ global.dfail = (type, m, conn) => {
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
   }[type]
   if (msg) return m.reply(msg)
+let unreg = {
+    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Fachri.15*`
+  }[type]
+  if (unreg) return conn.sendButton(m.chat, `Haii Kak, ${name} 👋 Sebelum menggunakan bot ini Harap *Register* Terlebih dahulu`, wm, 'Register', `#daftar ${name}.15`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `© Created By Fachri_\nJam ${time}`, itemCount: 2022, thumbnail: fs.readFileSync('./src/RadBotZ.jpg')}}})
 }
 
 let fs = require('fs')
