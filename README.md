@@ -70,13 +70,15 @@ Simple WhatsApp Bot
 
  [`BOTCAHX`](https://wa.me/6282221792667)
 
+ [`FACHRI`](https://wa.me/6285713041886)
 
-### BOTCAHX stat
-![Ra Github stat](https://github-readme-stats.vercel.app/api?username=BOTCAHX&theme=midnight-purple&show_icons=true) 
 
-![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=BOTCAHX&theme=monokai)
+### FachriBotzV1 stat
 
-![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BOTCAHX&theme=tokyonight)
+![Ra Github stat](https://github-readme-stats.vercel.app/api?username=Ipulpachri&theme=default&show_icons=true) 
+
+![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=Ipulpachri&theme=default)
+
 
 
 ## Arguments `node . [--options] [<session name>]`
