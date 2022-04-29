@@ -483,7 +483,7 @@ handler.botAdmin = false
 handler.fail = null
 handler.exp = 3
 
-handler.register = true
+handler.register = false
 
 module.exports = handler
 
