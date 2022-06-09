@@ -41,7 +41,7 @@ Simple WhatsApp Bot
 | **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 | **Node.js [salin]**     | heroku/nodejs|
 
-
+⚠️
 
 ## CARA INSTALL DI TERMUX
 ```bash
