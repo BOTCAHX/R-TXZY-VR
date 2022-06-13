@@ -1,9 +1,4 @@
-"dependencies": {
-  "xmldom": ">=0.7.0"
-}
-"devDependencies": {
-  "xmldom": ">=0.7.0"
-}
+
 {
   "name": "R-Txzy",
   "version": "2.2.0",
@@ -71,5 +66,11 @@
     "xmldom": "^0.6.0",
     "yargs": "^17.0.1",
     "yt-search": "^2.9.0"
+    "dependencies": {
+    "xmldom": ">=0.7.0"
+     }
+    "devDependencies": {
+    "xmldom": ">=0.7.0"
+}
   }
 }
