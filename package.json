@@ -1,3 +1,9 @@
+"dependencies": {
+  "xmldom": ">=0.7.0"
+}
+"devDependencies": {
+  "xmldom": ">=0.7.0"
+}
 {
   "name": "R-Txzy",
   "version": "2.2.0",
