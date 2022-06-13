@@ -27,7 +27,7 @@
     "axios": "^0.27.2",
     "brainly-scraper-v2": "^2.0.9",
     "cfonts": "^3.1.0",
-    "chalk": "^4.1.1",
+    "chalk": "^5.0.1",
     "cheerio": "^1.0.0-rc.10",
     "emoji-api": "^1.0.2",
     "express": "^4.17.1",
